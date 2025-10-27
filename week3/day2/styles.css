@@ -1,0 +1,32 @@
+
+body {
+	background-image: url("images/background-green.png");
+	background-size: cover;
+}
+
+#home-section {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	color: goldenrod;
+}
+
+#message-el {
+	font-style: italic;
+}
+
+.game-btn {
+	background: goldenrod;
+	font: inherit;
+	color: #016f32;
+	width: 150px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+	border-radius: 2px;
+	margin: 2px;
+}
