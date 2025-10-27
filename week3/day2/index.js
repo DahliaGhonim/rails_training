@@ -42,8 +42,7 @@ function startGame() {
 function renderGame() {
 	cardsEl.textContent = "Cards:"
 	cardsCount = cards.length
-	for (let i = 0; i < cardsCount; i++)
-	{
+	for (let i = 0; i < cardsCount; i++) {
 		cardsEl.textContent += " " + cards[i]
 	}
 
@@ -64,8 +63,7 @@ function renderGame() {
 }
 
 function newCard() {
-	if (isAlive && !hasBlackjack)
-	{
+	if (isAlive && !hasBlackjack) {
 		let card = getRandomCard()
 		sum += card
 		cards.push(card)
