@@ -6,7 +6,6 @@ let player = {
 
 let isAlive = false
 let cards = []
-let cardsCount = 0
 let sum = 0
 let hasBlackjack = false
 let message = ""
@@ -41,7 +40,7 @@ function startGame() {
 
 function renderGame() {
 	cardsEl.textContent = "Cards:"
-	cardsCount = cards.length
+	let cardsCount = cards.length
 	for (let i = 0; i < cardsCount; i++) {
 		cardsEl.textContent += " " + cards[i]
 	}
